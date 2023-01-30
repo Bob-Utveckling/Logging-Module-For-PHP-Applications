@@ -1,4 +1,4 @@
-#############################
+############################
 Logging Module For PHP Database Applications
 This Module enables logging of Inserts/Updates in Database and
 it makes it possible to read the logged data by issuing a "show_log" command.
