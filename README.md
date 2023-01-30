@@ -31,7 +31,7 @@ Follow steps below to enable the Module:
 
 	$log_table = "log_table";
 	$show_how_many_log_entries=10;
-	date_default_timezone_set('Europe/Stockholm');![Screenshot- Data Logging Module](https://user-images.githubusercontent.com/42844572/215530089-f4f805aa-73b4-4c93-a833-161dbe184880.png)
+	date_default_timezone_set('Europe/Stockholm');
 
 	include ("./module-logging/logging.php");
 	include ("./module-logging/logging-front-end.php");
@@ -44,3 +44,6 @@ Follow steps below to enable the Module:
 
 	global $show_how_many_log_entries;
 	show_logs($show_how_many_log_entries);
+
+
+![Screenshot- Data Logging Module](https://user-images.githubusercontent.com/42844572/215530089-f4f805aa-73b4-4c93-a833-161dbe184880.png)
